@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+	background: url(../img/background.jpg);
+	background-size: cover;
+	
+}
+
+
+.container{
+    padding-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.login-section{
+    width: 400px;
+	background-color: #03a9f466;
+    padding: 25px;
+
+}
+
+.login-section img{
+	width: 200px;
+    margin: 0px auto;
+    display: block;
+
+}
+
+.login-section h2{
+	text-align: center;
+    color: maroon;
+    text-transform: uppercase;
+    margin: 10px 0px;
+}
+
+.from-control{
+    width: 96px;
+    height: 35px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.submit-button{
+    background: maroon;
+    color: white;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+.pass{
+    width: 96px;
+    height: 35px;
+    margin-bottom: 10px;
+    padding: 5px;
+
+}
+
+.submit-button:hover{
+	box-shadow: 2px 4px 8px #ffff;
+
+}
+
+
+
+
+
